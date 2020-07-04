@@ -3,7 +3,7 @@
 This implements the simulation of a new proposed measure by G. Mijatovic, T. Loncar Turukalo, N. Bozanic and L. Faes: 
 'A measure of concurrent neural firing activity based on mutual information', 2020.
 
-The CFI_MI index estimates the degree of concomitant firing between two neural units based on a modified form of a mutual information (MI) 
+The CFI_MI index estimates the degree of concomitant firing between two neural units based on a modified form of mutual information (MI) 
 applied on a coarse, binary representations of firing activity (states of neural quiescence '0' and states of firing '1' unfolded in time).
 
 
