@@ -1,6 +1,6 @@
 # CFI-MI MATLAB toolbox
 
-This implements the simulation of a new proposed measure by G. Mijatovic, T. Loncar Turukalo, N. Bozanic and L. Faes: 
+This implements the simulation of a new proposed measure by G. Mijatovic, T. Loncar-Turukalo, N. Bozanic and L. Faes: 
 "A measure of concurrent neural firing activity based on mutual information", 2020.
 
 The CFI_MI index estimates the degree of concomitant firing between two neural units based on a modified form of mutual information (MI) 
