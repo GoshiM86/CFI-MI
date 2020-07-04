@@ -11,12 +11,11 @@ The CFI-MI toolbox contains next functions for:
 
 1. binary-state representation of the spiking activity: 'binary_representation.m' (see REF0);
 2. computing the concurrent firing index based on modified mutual information (CFI_MI index): 'function_CFI_MI.m';
-3. assessment of statistical significance of a CFI_MI index index based on surrogate data analysis: 'spiSeMe_surrogate_jodi.m' (this function is part of the SpiSeMe package see REF2);
+3. assessment of statistical significance of the CFI_MI index index based on surrogate data analysis: 'spiSeMe_surrogate_jodi.m' (this function is part of the SpiSeMe package, see REF2);
 
 and script:
 
-4. script 'demo.m' to demonstrate the simulation of a network of 1000 randomly coupled spiking neurons (see REF1) and to estimate CFI_MI between two selected cells 
-with assessment of its statistical significance (see REF2) and the corresponding visualization of spike trains and binary profiles. 
+4. script 'demo.m' to demonstrate the estimaton of the CFI_MI index between two selected cells from a network of 1000 randomly coupled spiking neurons (see REF1); supported with assessment of its statistical significance (see REF2) and the corresponding visualization of spike trains and binary profiles.
 
 REF0: Mijatovic G, Loncar-Turukalo T, Procyk E, Bajic D (2018): "A novel approachto probabilistic characterisation of neural firing patterns", Journal of neuroscience methods 305:67–81
 
