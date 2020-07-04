@@ -1,18 +1,19 @@
 function CFI_MI = function_CFI_MI(spike_train1, spike_train2, b_idle_threshold)
 
 % function_CFI_MI_ver2.m estimates concurrent firing activity index (CFI MI index) based on
-% modified mutual information applied on binary profiles (states of neural quiescence '0' and state of firing '1') of neural spiking activity
+% modified mutual information applied to binary profiles of neural spiking activity (states of neural quiescence '0' and states of firing '1' unfolded in time) 
 
 % Input parameters:
 % 1. spike_train1: spiking activity 1
 % 2. spike_train2: spiking activity 2
 % 3. b_idle_threshold - parameter needed to be set for estimation periods of neural quiescence (state '0'); 
-% (idle_threshold = b*mean(ISI_strema)); % b_idle_threshold corresponds to b
+% (idle_threshold = b*mean(ISI_strema)); b_idle_threshold corresponds to b
 
 % Output parameters:
 % 1. CFI_MI index: estimated index of firing concurrency between two neural spiking activities
-
 % This function is part of the CFI-MI toolbox.
+
+%--------------------------------------------------------------------------
 
 %% Input parsing & validation
 if (~iscolumn(spike_train1))
