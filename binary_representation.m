@@ -14,6 +14,8 @@ function [spike_train, states_binary] = binary_representation(spike_train, b_idl
 
 % This function is part of the CFI-MI toolbox.
 
+%--------------------------------------------------------------------------
+
 ISI = diff(spike_train); % inter-spike interval stream
 ISI = round(ISI.*100)./100;
 idle_threshold = b_idle_threshold*mean(ISI); % defining the idle threshold
