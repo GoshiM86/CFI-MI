@@ -12,6 +12,7 @@ function CFI_MI = function_CFI_MI(spike_train1, spike_train2, b_idle_threshold)
 
 % Output parameters:
 % 1. CFI_MI index: estimated index of firing concurrency between two neural spiking activities
+
 % This function is part of the CFI-MI toolbox.
 
 %--------------------------------------------------------------------------
