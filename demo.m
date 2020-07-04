@@ -1,8 +1,7 @@
 close all; clc;
 
 % This implements the simulation of new proposed measure by G. Mijatovic, T. Loncar Turukalo, N.
-% Bozanic and L. Faes: 'A measure of concurrent neural firing activity
-% based on mutual information', 2020.
+% Bozanic and L. Faes: 'A measure of concurrent neural firing activity based on mutual information', 2020.
 
 % CFI_MI index estimates the degree of concomitant firing between two neural units 
 % based on a modified form of a mutual information (MI) applied on a coarse, binary representations 
@@ -15,6 +14,7 @@ close all; clc;
 % This script uses next functions: binary_representation.m; function_CFI_MI.m; spiSeMe_surrogate_jodi.m as a part of the CFI-MI toolbox.
 
 %--------------------------------------------------------------------------
+
 %% Input parameters
 b_idle_threshold = 3; % in order to estimate periods of neural quiescence (state '0');
 %(idle_threshold = b*mean(ISI_strema)); b_idle_threshold corresponds to b
@@ -27,7 +27,7 @@ alpha = 0.7; % scaling coefficient of synapsis matrix S
 cell_ind1 = 10; % for example, 10th cell
 cell_ind2 = 100; % for example, 100th cell
 
-%% Realistic spiking model for producing coupled cortical dynamics, see REF1: Izhikevich EM (2003) Simple model of spiking neurons. IEEE Transactions onneural networks 14(6):1569–1572
+%% Realistic spiking model for producing coupled cortical dynamics, see REF1: Izhikevich EM (2003) Simple model of spiking neurons. IEEE Transactions onneural networks 14(6):1569â€“1572
 % Simulation of a network of 1000 randomly coupled spiking neurons:
 % 800 regular spiking (RS) - excitatory cells and 200 low-threshold spiking (LTS) - inhibitory cells
 
