@@ -4,13 +4,14 @@ This implements the simulation of a new proposed measure by G. Mijatovic, T. Lon
 "A measure of concurrent neural firing activity based on mutual information", 2020.
 
 Concurrent neural firing index based on mutual information (MI), CFI_MI index:
+
 The CFI_MI index estimates the degree of concomitant firing between two neural units based on a modified form of MI 
 applied on a coarse, binary representations of firing activity (states of neural quiescence "0" and states of firing "1" unfolded in time).
 
 The CFI-MI toolbox contains next functions:
 
 1. binary_representation.m: binary-state representation of the spiking activity (see REF0);
-2. function_CFI_MI.m: computing the concurrent firing index based on modified mutual information, CFI_MI index;
+2. function_CFI_MI.m: computing the CFI_MI index;
 3. spiSeMe_surrogate_jodi.m: assessment of statistical significance of the CFI_MI index index based on surrogate data analysis (this function is part of the SpiSeMe package, see REF2);
 
 and script:
