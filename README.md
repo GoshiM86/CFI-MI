@@ -19,6 +19,8 @@ and script:
 with assessment of its statistical significance (see REF2) and the corresponding visualization of spike trains and binary profiles. 
 
 REF0: Mijatovic G, Loncar-Turukalo T, Procyk E, Bajic D (2018): "A novel approachto probabilistic characterisation of neural firing patterns", Journal of neuroscience methods 305:67–81
+
 REF1: Izhikevich EM (2003): "Simple model of spiking neurons", IEEE Transactions onneural networks 14(6):1569–1572
+
 REF2: Ricci L, Castelluzzo M, Minati L, Perinelli A  (2019): "Generation  of  surro-gate event sequences via joint distribution of successive inter-event intervals", Chaos: An Interdisciplinary Journal of Nonlinear Science 29(12):121102
 
