@@ -18,7 +18,7 @@ and script:
 
 4. demo.m: to demonstrate the estimaton of the CFI_MI index between two selected cells from a network of 1000 randomly coupled spiking neurons (see REF1); supported with assessment of its statistical significance (see REF2) and the corresponding visualization of spike trains and binary profiles.
 
-REF0: Mijatovic G, Loncar-Turukalo T, Procyk E, Bajic D (2018): "A novel approachto probabilistic characterisation of neural firing patterns", Journal of neuroscience methods 305:67–81
+REF0: Mijatovic G, Loncar-Turukalo T, Procyk E, Bajic D (2018): "A novel approach to probabilistic characterisation of neural firing patterns", Journal of neuroscience methods 305:67–81
 
 REF1: Izhikevich EM (2003): "Simple model of spiking neurons", IEEE Transactions onneural networks 14(6):1569–1572
 
